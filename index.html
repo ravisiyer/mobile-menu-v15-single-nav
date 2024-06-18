@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Mobile Menu based on Dave Gray Tailwind tutorial, but without using Tailwind. It also has 
+ some additions including JavaScript code, and now provides fully functional mobile menu but without animation.
+ Another change is that it has a single menu for header (regular) and mobile.
+ The code is still somewhat simple, IMHO. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <section class="header_container">
+        <h1 class="header_title">
+          <a href="#hero" class="menu_link">🚀 Acme Rockets</a>
+        </h1>
+        <div>
+          <button id="mobile-menu-btn" class="mobile_menu_btn">&#9776;</button>
+          <button id="mobile-menu-close-btn" class="mobile_menu_close_btn">
+            &#10006;
+          </button>
+          <nav id="menu-nav" class="menu_nav" aria-label="main">
+            <a href="#rockets" class="menu_link">Our Rockets</a>
+            <a href="#testimonials" class="menu_link">Testimonials</a>
+            <a href="#contact" class="menu_link">Contact Us</a>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="main-container">
+        <h1>
+          HTML, CSS and JS variation of menu part of
+          <a href="https://www.youtube.com/watch?v=lCxcTsOHrjo"
+            >Dave Gray's Tailwind tutorial</a
+          >
+        </h1>
+        <h2>
+          Version using is_open dummy CSS class and toggling it in classlist of
+          mobile menu elements in Javascript code. Also uses :not pseudo-class
+          in CSS. Also uses single menu nav for regular and mobile menu.
+        </h2>
+        <h2>Dummy Page</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+          dolorem porro alias maiores iure officiis excepturi eos numquam
+          recusandae, in quasi exercitationem nemo fuga labore similique
+          sapiente quaerat accusantium quod!
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
